@@ -1,0 +1,14 @@
+format: jb-book
+root: intro
+parts:
+  - caption: "Part I:The Estimation Mindset"
+    chapters:
+      - file: chapters/ch01_estimation_problem
+
+  - caption: "Part III:Uncertainty and Identifiability"
+    chapters:
+      - file: chapters/ch06_gaussian_distributions
+
+  - caption: "Part IV:Estimation Frameworks"
+    chapters:
+      - file: chapters/ch16_kalman_filter

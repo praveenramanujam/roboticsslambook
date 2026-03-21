@@ -1,0 +1,31 @@
+title: "Estimation, Mapping & Localization"
+author: ""
+logo: ""
+
+execute:
+  execute_notebooks: "off"
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - colon_fence
+    - dollarmath
+    - html_image
+
+launch_buttons:
+  jupyterlite: true
+
+sphinx:
+  extra_extensions:
+    - jupyterlite_sphinx
+  config:
+    jupyterlite_silence: false
+    jupyterlite_contents:
+      - chapters/
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    html_theme_options:
+      use_repository_button: false
+      use_issues_button: false
+      use_edit_page_button: false
+      show_navbar_depth: 2
+      home_page_in_toc: true

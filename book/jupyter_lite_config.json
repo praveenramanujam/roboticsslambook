@@ -1,0 +1,7 @@
+{
+  "FederatedExtensionAddon": {
+    "extra_labextensions_path": [
+      "/home/random1/.local/share/jupyter/labextensions"
+    ]
+  }
+}
