@@ -1,6 +1,10 @@
 format: jb-book
 root: intro
 parts:
+  - caption: "Prologue"
+    chapters:
+      - file: chapters/ch00_the_carpenter
+
   - caption: "Part I: The Estimation Mindset"
     chapters:
       - file: chapters/ch01_estimation_problem
