@@ -1,11 +1,17 @@
 format: jb-book
 root: intro
 parts:
-  - caption: "Part I:The Estimation Mindset"
+  - caption: "Part I: The Estimation Mindset"
     chapters:
       - file: chapters/ch01_estimation_problem
 
-  - caption: "Part III:Uncertainty and Identifiability"
+  - caption: "Part II: Linear Algebra and Geometry"
+    chapters:
+      - file: chapters/ch02_linear_algebra
+      - file: chapters/ch03_coordinate_frames
+      - file: chapters/ch04_rotations_3d
+
+  - caption: "Part III: Uncertainty and Identifiability"
     chapters:
       - file: chapters/ch06_gaussian_distributions
 
