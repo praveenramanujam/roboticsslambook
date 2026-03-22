@@ -15,7 +15,57 @@ parts:
     chapters:
       - file: chapters/ch05_probability_foundations
       - file: chapters/ch06_gaussian_distributions
+      - file: chapters/ch07_uncertainty_propagation
+      - file: chapters/ch08_observability_gauge
 
-  - caption: "Part IV:Estimation Frameworks"
+  - caption: "Part IV: Estimation Frameworks"
     chapters:
+      - file: chapters/ch09_bayes_filter
+      - file: chapters/ch10_optimization_estimation
+
+  - caption: "Part V: Modeling the Real World"
+    chapters:
+      - file: chapters/ch11_motion_models
+      - file: chapters/ch12_sensor_models
+      - file: chapters/ch13_data_association
+      - file: chapters/ch14_simulation_evaluation
+
+  - caption: "Part VI: Core Estimation Algorithms"
+    chapters:
+      - file: chapters/ch15_discrete_bayes
       - file: chapters/ch16_kalman_filter
+      - file: chapters/ch17_nonlinear_kalman
+      - file: chapters/ch18_particle_filters
+
+  - caption: "Part VII: SLAM Foundations"
+    chapters:
+      - file: chapters/ch19_structure_of_slam
+      - file: chapters/ch20_map_representations
+      - file: chapters/ch21_ekf_slam
+      - file: chapters/ch22_fastslam
+
+  - caption: "Part IX: System Structure and Scaling"
+    chapters:
+      - file: chapters/ch27_frontend_backend
+      - file: chapters/ch28_realtime_vs_batch
+      - file: chapters/ch29_multisession_slam
+      - file: chapters/ch30_global_alignment
+
+  - caption: "Part X: Visual Geometry"
+    chapters:
+      - file: chapters/ch31_camera_models
+      - file: chapters/ch32_multiview_geometry
+      - file: chapters/ch33_visual_frontend
+
+  - caption: "Part XI: Visual SLAM Systems"
+    chapters:
+      - file: chapters/ch34_visual_odometry
+      - file: chapters/ch35_monocular_slam
+      - file: chapters/ch36_stereo_rgbd
+      - file: chapters/ch37_orbslam_architecture
+      - file: chapters/ch38_bundle_adjustment
+
+  - caption: "Part XII: Sensor Fusion"
+    chapters:
+      - file: chapters/ch39_imu_modeling
+      - file: chapters/ch40_visual_inertial
