@@ -13,6 +13,7 @@ parts:
 
   - caption: "Part III: Uncertainty and Identifiability"
     chapters:
+      - file: chapters/ch05_probability_foundations
       - file: chapters/ch06_gaussian_distributions
 
   - caption: "Part IV:Estimation Frameworks"
