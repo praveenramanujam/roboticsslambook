@@ -69,3 +69,7 @@ parts:
     chapters:
       - file: chapters/ch39_imu_modeling
       - file: chapters/ch40_visual_inertial
+
+  - caption: "Part VIII: Optimization Based SLAM"
+    chapters:
+      - file: chapters/ch23_nonlinear_least_squares
