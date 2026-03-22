@@ -44,6 +44,11 @@ parts:
       - file: chapters/ch21_ekf_slam
       - file: chapters/ch22_fastslam
 
+  - caption: "Part VIII: Optimization Based SLAM"
+    chapters:
+      - file: chapters/ch23_nonlinear_least_squares
+      - file: chapters/ch24_factor_graphs
+
   - caption: "Part IX: System Structure and Scaling"
     chapters:
       - file: chapters/ch27_frontend_backend
@@ -69,7 +74,3 @@ parts:
     chapters:
       - file: chapters/ch39_imu_modeling
       - file: chapters/ch40_visual_inertial
-
-  - caption: "Part VIII: Optimization Based SLAM"
-    chapters:
-      - file: chapters/ch23_nonlinear_least_squares
