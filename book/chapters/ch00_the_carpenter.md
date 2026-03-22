@@ -1,8 +1,18 @@
-# The Carpenter and the IKEA Builder
+# Before You Begin
+
+Welcome.
+
+If you are here, you probably care about robots. Maybe you want to build a drone that navigates a warehouse. Maybe you want a mobile robot that maps a building. Maybe you are simply curious about how a self driving car knows where it is.
+
+Whatever brought you here, we are glad you showed up.
+
+Before we write a single equation or a single line of code, we want to share a story. It is about two ways of building things, and it will shape how you read every chapter in this book.
+
+## The Carpenter and the IKEA Builder
 
 You can build furniture in two ways.
 
-## The IKEA Builder
+### The IKEA Builder
 
 You get a box.
 
@@ -24,7 +34,7 @@ But:
 
 You built it. But you didn't **understand** it.
 
-## The Carpenter
+### The Carpenter
 
 A carpenter starts with:
 - Raw wood
@@ -97,8 +107,6 @@ Not libraries.
 
 These are your chisels, saws, and measuring tools.
 
-This book teaches you these tools. Every chapter builds one more skill in your workshop. By the end, you won't need instructions. You will understand the material deeply enough to build systems that work in the real world, diagnose why they fail, and fix them.
-
 ## The Trap
 
 IKEA feels fast.
@@ -127,15 +135,25 @@ Or you can build systems that work in the real world.
 
 This book is for carpenters.
 
-```{admonition} How to use this book
+## How This Book Works
+
+This book teaches you the carpenter's tools. Every chapter builds one more skill in your workshop. By the end, you won't need instructions. You will understand the material deeply enough to build systems that work in the real world, diagnose why they fail, and fix them.
+
+Here is what we promise:
+
+```{admonition} The approach
 :class: tip
 
-Every chapter in this book follows the carpenter's approach:
-
-1. **We build from scratch.** No black boxes. You implement every algorithm yourself.
-2. **We show you the real tools.** Each chapter lists the production libraries so you know what exists.
-3. **We break things on purpose.** Failure modes, edge cases, and wrong assumptions are explored explicitly.
-4. **We end with something you built.** Every chapter has a capstone exercise where you create something real.
+1. **We build from scratch.** No black boxes. You implement every algorithm yourself, from Bayes rule to bundle adjustment.
+2. **We show you the real tools.** Each chapter lists the production libraries (ROS 2, OpenCV, GTSAM, ORB-SLAM3) so you know what engineers use in practice.
+3. **We break things on purpose.** Failure modes, edge cases, and wrong assumptions are explored explicitly. You will see algorithms fail and learn why.
+4. **We end with something you built.** Every chapter has a capstone exercise where you create something real and useful.
 
 Start with raw material. End with understanding.
 ```
+
+You don't need to be an expert to start. You need curiosity, a willingness to struggle through the math, and the patience to build understanding one layer at a time.
+
+The first layer starts in {doc}`ch01_estimation_problem`.
+
+Let's go.
