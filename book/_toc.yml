@@ -48,6 +48,8 @@ parts:
     chapters:
       - file: chapters/ch23_nonlinear_least_squares
       - file: chapters/ch24_factor_graphs
+      - file: chapters/ch25_graph_slam
+      - file: chapters/ch26_loop_closure
 
   - caption: "Part IX: System Structure and Scaling"
     chapters:
