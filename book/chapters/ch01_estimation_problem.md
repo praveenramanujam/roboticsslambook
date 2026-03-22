@@ -2,6 +2,17 @@
 
 ## 1.1 What localization and mapping are really solving
 
+
+```{admonition} What you will understand
+:class: tip
+
+- Why robots cannot rely on a single "best guess" and must maintain beliefs over possible states
+- The three types of truth in robotics: kinematic, sensed, and estimated
+- Why estimation is unavoidable in any real robotic system
+
+**Real world application:** You will be able to explain why a GPS reading of (37.7749, -122.4194) does not mean the robot is exactly there, and what a robot should do instead.
+```
+
 A robot moving through the world faces a deceptively simple question: *where am I?*
 
 To answer it, the robot must reason about three things simultaneously: its own motion (what it commanded its motors to do, and how much to trust that), its sensors (what it measured about the world, and how noisy those measurements are), and the world itself (what is out there, and where).
